@@ -16,7 +16,7 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>E-Commerce Strategist & Growth Manager</h4>
-                <h5>UK-Based E-Commerce Company</h5>
+                <h5>Multiple UK, EU & USA Based E-Commerce Companies</h5>
               </div>
               <h3>9+ Years</h3>
             </div>
