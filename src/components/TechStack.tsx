@@ -201,11 +201,11 @@ const TechStack = () => {
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem", maxWidth: "1200px", margin: "0 auto", width: "100%" }}>
           {stack.map((group, index) => (
-            <div key={index} style={{ border: "1px solid rgba(255,255,255,0.1)", padding: "2rem", borderRadius: "10px", background: "rgba(255,255,255,0.02)" }}>
-              <h3 style={{ fontSize: "1.5rem", marginBottom: "1.5rem", color: "#fff" }}>{group.category}</h3>
-              <div className="what-content-flex" style={{ gap: "10px", display: "flex", flexWrap: "wrap" }}>
+            <div key={index} style={{ border: "1px solid rgba(255,255,255,0.1)", padding: "2rem", borderRadius: "10px", background: "rgba(255,255,255,0.02)", display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <h3 style={{ fontSize: "1.5rem", marginBottom: "1.5rem", color: "#fff", textAlign: "center" }}>{group.category}</h3>
+              <div className="what-content-flex" style={{ gap: "10px", display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
                 {group.tools.map((tool) => (
-                  <div key={tool} className="what-tags" style={{ border: "1px solid rgba(255,255,255,0.2)", padding: "5px 15px", borderRadius: "20px", fontSize: "0.9rem", color: "#ccc" }}>
+                  <div key={tool} className="what-tags" style={{ border: "1px solid rgba(255,255,255,0.2)", padding: "5px 15px", borderRadius: "20px", fontSize: "0.9rem", color: "#ccc", textAlign: "center" }}>
                     {tool}
                   </div>
                 ))}
