@@ -196,10 +196,10 @@ const TechStack = () => {
 
   return (
     <div className="techstack-wrapper" style={{ display: "flex", flexDirection: "column" }}>
-      <div className="techstack" style={{ padding: "10vh 5%", minHeight: "80vh", display: "flex", flexDirection: "column", justifyContent: "center" }}>
-        <h2 style={{ fontSize: "3rem", fontWeight: 700, marginBottom: "3rem", textAlign: "center" }}>🧰 Tools & Tech Stack</h2>
+      <div className="tools-grid-section" style={{ padding: "10vh 5%", minHeight: "80vh", display: "flex", flexDirection: "column", justifyContent: "center", position: "relative", zIndex: 10 }}>
+        <h2 style={{ fontSize: "clamp(2rem, 8vw, 3rem)", fontWeight: 700, marginBottom: "3rem", textAlign: "center", textTransform: "uppercase" }}>🧰 Tools & Tech Stack</h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem", maxWidth: "1200px", margin: "0 auto" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "2rem", maxWidth: "1200px", margin: "0 auto", width: "100%" }}>
           {stack.map((group, index) => (
             <div key={index} style={{ border: "1px solid rgba(255,255,255,0.1)", padding: "2rem", borderRadius: "10px", background: "rgba(255,255,255,0.02)" }}>
               <h3 style={{ fontSize: "1.5rem", marginBottom: "1.5rem", color: "#fff" }}>{group.category}</h3>
