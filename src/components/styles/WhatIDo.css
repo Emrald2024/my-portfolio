@@ -290,7 +290,8 @@
     padding-bottom: 50px;
   }
   .what-box-in {
-    height: 900px;
+    height: auto;
+    min-height: 1100px;
     margin-left: -50px;
   }
   .what-content {
@@ -327,7 +328,7 @@
   }
   .what-box:last-child {
     height: auto;
-    min-height: 900px;
+    min-height: 1150px;
   }
   .what-box {
     width: 500px;
@@ -340,7 +341,7 @@
   .what-box-in {
     margin-left: 0px;
     height: auto;
-    min-height: 900px;
+    min-height: 1150px;
   }
   .what-content h5,
   .what-content-flex {
@@ -350,7 +351,8 @@
   .what-noTouch:hover h5,
   .what-content-active h5,
   .what-noTouch:hover .what-content-flex,
-  .what-content-active .what-content-flex {
+  .what-content-active .what-content-flex,
+  .tools-grid-section .what-content-flex {
     opacity: 1;
   }
   .what-content {
