@@ -14,14 +14,18 @@ import "./styles/WhatIDo.css";
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  "/images/marketing/webp/shopify.png",
+  "/images/marketing/webp/wordpress.png",
+  "/images/marketing/webp/meta.png",
+  "/images/marketing/webp/google.png",
+  "/images/marketing/webp/tiktok.png",
+  "/images/marketing/webp/snapchat.png",
+  "/images/marketing/webp/klaviyo.png",
+  "/images/marketing/webp/canva.png",
+  "/images/marketing/webp/capcut.png",
+  "/images/marketing/webp/semrush.png",
+  "/images/marketing/webp/dsers.png",
+  "/images/marketing/webp/notion.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -132,24 +136,20 @@ const TechStack = () => {
       tools: ["Shopify", "WordPress", "WooCommerce", "TikTok Shop"],
     },
     {
-      category: "Ads",
-      tools: ["Meta Business Suite", "Google Ads Manager", "TikTok Ads Manager", "Snapchat Ads", "X Ads"],
+      category: "Advertising",
+      tools: ["Meta Ads", "Google Ads", "TikTok Ads", "Snapchat Ads", "Pinterest Ads"],
     },
     {
-      category: "Analytics",
-      tools: ["Google Analytics 4", "Meta Pixel", "Hotjar", "Triple Whale"],
-    },
-    {
-      category: "SEO",
-      tools: ["Ahrefs", "SEMrush", "Google Search Console"],
+      category: "Marketing & Ops",
+      tools: ["Klaviyo", "DSers", "AutoDS", "Notion", "Slack"],
     },
     {
       category: "Design & Video",
-      tools: ["Canva", "Adobe Premiere Pro", "CapCut"],
+      tools: ["Canva", "CapCut", "Adobe Premiere Pro", "Adobe Photoshop"],
     },
     {
-      category: "Operations",
-      tools: ["DSers", "AutoDS", "Klaviyo", "Gorgias", "Slack", "Notion"],
+      category: "Growth & SEO",
+      tools: ["SEMrush", "Ahrefs", "Google Analytics 4", "Triple Whale"],
     },
   ];
 

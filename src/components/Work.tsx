@@ -7,31 +7,31 @@ const projects = [
   {
     title: "Solid Starters",
     category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
+    tools: "Shopify, WordPress, Meta Ads, Klaviyo",
     image: "/images/Solidx.png",
   },
   {
     title: "Radix",
     category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
+    tools: "Shopify, Meta Ads, Google Ads, TikTok Ads",
     image: "/images/radix.png",
   },
   {
     title: "Bond Cancellation",
     category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
+    tools: "Shopify, Google Ads, SEMrush, DSers",
     image: "/images/bond.png",
   },
   {
     title: "Sapphire",
     category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
+    tools: "WordPress, Meta Ads, Snapchat Ads, Notion",
     image: "/images/sapphire.png",
   },
   {
     title: "Mpro",
     category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
+    tools: "Shopify, Klaviyo, Canva, CapCut",
     image: "/images/Maxlife.png",
   },
 ];
